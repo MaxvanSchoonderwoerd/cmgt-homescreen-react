@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Clever",
+    "href": "https://cle.cmgt.hr.nl",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 2,
+    "name": "OSIRIS",
+    "href": "https://hr.osiris-student.nl/",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 3,
+    "name": "Old OSIRIS",
+    "href": "https://student.osiris.hro.nl/",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 4,
+    "name": "Showcase",
+    "href": "https://cmgt.hr.nl/",
+    "logoPath": "https://cmgt.hr.nl/images/favicons/apple-touch-icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Rooster",
+    "href": "https://hint.hr.nl/nl/HR/Studie/roosters-en-cijfers/Lesrooster/",
+    "logoPath": "https://hint.hr.nl//content/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 6,
+    "name": "HINT",
+    "href": "https://hint.hr.nl",
+    "logoPath": "https://hint.hr.nl//content/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 7,
+    "name": "WebMail",
+    "href": "https://webmail.hro.nl",
+    "logoPath": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/apple-touch-icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Brightspace",
+    "href": "http://brightspace.hr.nl",
+    "logoPath": "https://s.brightspace.com/lib/branding/1.0.0/brightspace/favicon.svg"
+  },
+  {
+    "id": 9,
+    "name": "PraktijkLink",
+    "href": "https://praktijklink.hr.nl/",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 10,
+    "name": "Remindo",
+    "href": "https://hr.remindotoets.nl/login/",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 11,
+    "name": "Mijn HR",
+    "href": "https://mijn.hr.nl",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 12,
+    "name": "SURFspot",
+    "href": "https://www.surfspot.nl/stc",
+    "logoPath": "https://www.surfspot.nl/media/favicon/websites/1/favicon_2x.png"
+  },
+  {
+    "id": 13,
+    "name": "Mediatheek",
+    "href": "https://www.hogeschoolrotterdam.nl/voorlichting/begeleiding-en-voorzieningen/mediatheek/",
+    "logoPath": "https://mijn.hr.nl/assets/images/favicons/apple-touch-icon-180x180.png"
+  },
+  {
+    "id": 14,
+    "name": "Github",
+    "href": "https://github.com/HR-CMGT",
+    "logoPath": "https://github.com/fluidicon.png"
+  }
+]

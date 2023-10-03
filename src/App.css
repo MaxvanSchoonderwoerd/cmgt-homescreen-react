@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-  max-width: 80vw;
+  max-width: 85vw;
   margin: 0 auto;
   overflow: hidden;
   padding: 0 40px;
@@ -116,7 +116,7 @@ img {
 
 .links {
   margin-top: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
 }
 
 .linkContainer {
@@ -197,6 +197,10 @@ img {
 
   .footer {
     height: 100px;
+  }
+
+  .container {
+    max-width: 100vw;
   }
 
   .form {

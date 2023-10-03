@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig(() => {
   return {
     plugins: [react()],
-    base: "http://localhost",
+    base: "https://cmgt-home-screen.netlify.app/",
     build: {
       outDir: "public",
     },

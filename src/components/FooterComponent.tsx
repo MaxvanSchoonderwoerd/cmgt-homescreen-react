@@ -47,6 +47,13 @@ export default function FooterComponent() {
             </svg>
           </a>
         </div>
+
+        <a
+          className="portfolioLink"
+          href="https://maxvanschoonderwoerd.netlify.app/"
+        >
+          See my <span className="underlined">portfolio</span> for more work
+        </a>
       </div>
     </footer>
   );

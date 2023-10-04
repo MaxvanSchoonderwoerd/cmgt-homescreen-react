@@ -153,6 +153,8 @@ img {
 /*footer*/
 
 .footer {
+  position: absolute;
+  bottom: 0;
   padding: 2rem 0rem;
   width: 100%;
   background-color: #c40038;

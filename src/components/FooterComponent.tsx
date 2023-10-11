@@ -2,7 +2,11 @@ export default function FooterComponent() {
   const iconStyle = {
     fill: "none",
     stroke: " #ffffff",
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //@ts-ignore
     strokeLinecap: "round" as strokeLinecap,
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //@ts-ignore
     strokeLinejoin: "round" as strokeLinejoin,
   };
   return (

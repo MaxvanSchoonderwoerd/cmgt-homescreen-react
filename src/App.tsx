@@ -20,7 +20,6 @@ function App() {
 
   const loadLinks = () => {
     setLinks(Links);
-    console.log(links);
   };
 
   return (

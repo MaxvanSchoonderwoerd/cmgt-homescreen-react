@@ -1,10 +1,10 @@
-type TLinkProps = {
+type TCardProps = {
   name: string;
   href: string;
   logoPath?: string;
 };
 
-export default function LinkComponent(props: TLinkProps) {
+export default function CardComponent(props: TCardProps) {
   const { name, href, logoPath } = props;
   return (
     <div className="card">

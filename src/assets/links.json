@@ -82,5 +82,11 @@
     "name": "Github",
     "href": "https://github.com/HR-CMGT",
     "logoPath": "https://github.com/fluidicon.png"
+  },
+  {
+    "id": 15,
+    "name": "Cumlaude",
+    "href": "https://lms.hr.nl/#17",
+    "logoPath": "https://lms.hr.nl/xprog/xstart.ico"
   }
 ]

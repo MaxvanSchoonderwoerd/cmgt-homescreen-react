@@ -42,10 +42,12 @@ img {
 }
 
 .container {
-  max-width: 85vw;
+  max-width: 70vw;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 40px;
+
+  display: flex;
+  justify-content: center;
 }
 
 .flex {
@@ -64,6 +66,7 @@ img {
 /*header*/
 .logo {
   position: relative;
+  text-align: center;
 }
 
 .logo::after {
@@ -72,6 +75,10 @@ img {
   top: -0.5rem;
   rotate: 30deg;
   font-size: 1rem;
+  text-align: center;
+}
+
+.slogan {
   text-align: center;
 }
 
@@ -116,28 +123,26 @@ img {
 
 /*links*/
 
-.links {
-  margin-bottom: 2rem;
-}
-
 .linkContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  place-items: center;
+  width: 50rem;
+  margin-bottom: 10rem;
 }
 
 .card {
-  min-width: 10%;
-  min-height: 10%;
+  width: 8em;
+  height: 10rem;
   background-color: white;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   color: #333333;
-  z-index: 100;
-
   transition: ease-in-out 0.2s;
 }
 
@@ -172,8 +177,21 @@ img {
 .portfolioLink {
   color: white;
 }
-/*for screen smaller than 500px*/
 
+/*for screen smaller than 1024px*/
+@media only screen and (max-width: 1024px) {
+  .linkContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*for screen smaller than 840px*/
+@media only screen and (max-width: 840px) {
+  .linkContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*for screen smaller than 640px*/
 @media only screen and (max-width: 640px) {
   .flex {
     flex-direction: column;
@@ -191,7 +209,8 @@ img {
   }
 
   .linkContainer {
-    margin-bottom: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 14rem;
   }
 
   .header {

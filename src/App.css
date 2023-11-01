@@ -149,6 +149,10 @@ img {
   transition: ease-in-out 0.2s;
 }
 
+a > h3 {
+  text-align: center;
+}
+
 .card:hover {
   transform: scale(1.1);
 }
@@ -212,6 +216,7 @@ img {
   }
 
   .linkContainer {
+    margin: 0 1rem;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 14rem;
   }
@@ -231,5 +236,9 @@ img {
   .form {
     margin-top: 10px;
     margin-bottom: 110px;
+  }
+
+  .card {
+    width: 10rem;
   }
 }

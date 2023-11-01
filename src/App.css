@@ -135,6 +135,9 @@ img {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 8em;
   height: 10rem;
   background-color: white;
